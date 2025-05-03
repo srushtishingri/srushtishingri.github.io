@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srushti Shingri | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+    </style>
+</head>
+<body style="font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; background-color: #f2f2f2; color: #333; line-height: 1.6; overflow-x: hidden;">
+    <!-- Navigation -->
+    <nav id="navbar" style="position: fixed; top: 0; width: 100%; background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.05); z-index: 1000; transition: all 0.3s ease;">
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 15px 5%; max-width: 1200px; margin: 0 auto;">
+            <a href="#home" style="text-decoration: none; color: #000; font-weight: 700; font-size: 1.2rem;">SRUSHTI</a>
+            
+            <button id="menuToggle" style="background: none; border: none; color: #000; font-size: 1.5rem; cursor: pointer; display: none; z-index: 1001;">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul id="navLinks" style="display: flex; list-style: none; margin: 0; padding: 0; gap: 2rem;">
+                <li><a href="#home" style="text-decoration: none; color: #000; font-weight: 500; transition: color 0.3s ease;" onmouseover="this.style.color='#555'" onmouseout="this.style.color='#000'">HOME</a></li>
+                <li><a href="#about" style="text-decoration: none; color: #000; font-weight: 500; transition: color 0.3s ease;" onmouseover="this.style.color='#555'" onmouseout="this.style.color='#000'">ABOUT</a></li>
+                <li><a href="#projects" style="text-decoration: none; color: #000; font-weight: 500; transition: color 0.3s ease;" onmouseover="this.style.color='#555'" onmouseout="this.style.color='#000'">PROJECTS</a></li>
+                <li><a href="#contact" style="text-decoration: none; color: #000; font-weight: 500; transition: color 0.3s ease;" onmouseover="this.style.color='#555'" onmouseout="this.style.color='#000'">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" style="height: 100vh; background-color: #000; color: #fff; display: flex; position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex;">
+            <div style="flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 0 5%;">
+                <h1 style="font-size: 3rem; margin-bottom: 20px; font-weight: 700; letter-spacing: 1px;">SRUSHTI SHINGRI</h1>
+                <h2 style="font-size: 1.5rem; font-weight: 400; margin: 0 0 30px 0; letter-spacing: 2px;">FULL STACK DEVELOPER</h2>
+                <p style="max-width: 600px; margin-bottom: 40px; color: #ccc; font-weight: 300; letter-spacing: 1px;">An enthusiastic and driven Computer Science student with a solid foundation in full stack development.</p>
+                <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                    <a href="#projects" style="background-color: #fff; color: #000; padding: 12px 30px; text-decoration: none; font-weight: 500; transition: all 0.3s ease; letter-spacing: 1px;" onmouseover="this.style.backgroundColor='#e6e6e6'" onmouseout="this.style.backgroundColor='#fff'">VIEW PROJECTS</a>
+                    <a href="#contact" style="background-color: transparent; color: #fff; padding: 12px 30px; text-decoration: none; border: 1px solid #fff; font-weight: 500; transition: all 0.3s ease; letter-spacing: 1px;" onmouseover="this.style.backgroundColor='rgba(255,255,255,0.1)'" onmouseout="this.style.backgroundColor='transparent'">CONTACT ME</a>
+                </div>
+            </div>
+            <div style="flex: 1; display: flex; align-items: center; justify-content: center; position: relative;">
+                <div style="position: absolute; right: 0; top: 0; bottom: 0; width: 100%; display: flex; align-items: center; justify-content: center;">
+                    <div style="font-size: 20vw; font-weight: 800; opacity: 0.05; transform: rotate(-90deg); white-space: nowrap;">PORTFOLIO</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" style="padding: 100px 5%; background-color: #fff; max-width: 100%;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <div style="display: flex; flex-wrap: wrap; gap: 50px;">
+                <div style="flex: 1; min-width: 300px;">
+                    <h2 style="font-size: 2rem; margin-bottom: 30px; position: relative; display: inline-block; font-weight: 600; letter-spacing: 1px;">ABOUT ME
+                        <span style="position: absolute; bottom: -10px; left: 0; width: 50px; height: 2px; background-color: #000;"></span>
+                    </h2>
+                    <p style="margin-bottom: 20px; color: #333; line-height: 1.8;">
+                        An enthusiastic and driven Computer Science student with a solid foundation in full stack development, gained through hands-on experience during a successful internship while completing my diploma. I possess strong skills in web technologies, database management, and software engineering.
+                    </p>
+                    <p style="margin-bottom: 30px; color: #333; line-height: 1.8;">
+                        With a passion for continuous learning, I am eager to delve into the fields of Artificial Intelligence and Machine Learning. My goal is to contribute to innovative, impactful projects while growing as a well-rounded software developer.
+                    </p>
+                </div>
+                
+                <div style="flex: 1; min-width: 300px;">
+                    <h2 style="font-size: 2rem; margin-bottom: 30px; position: relative; display: inline-block; font-weight: 600; letter-spacing: 1px;">EXPERIENCE
+                        <span style="position: absolute; bottom: -10px; left: 0; width: 50px; height: 2px; background-color: #000;"></span>
+                    </h2>
+                    <div style="margin-bottom: 20px;">
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                            <h3 style="margin: 0; font-size: 1.1rem; font-weight: 600;">FULL STACK DEVELOPER INTERN</h3>
+                            <span style="color: #000; font-weight: 500;">JAN - JUN 2023</span>
+                        </div>
+                        <p style="margin: 0 0 15px 0; color: #666;">Government Polytechnic Gadag</p>
+                        <ul style="padding-left: 20px; margin: 0; color: #333;">
+                            <li style="margin-bottom: 8px;">Worked on front-end and back-end using HTML, CSS, JavaScript, Node.js, and MongoDB.</li>
+                            <li style="margin-bottom: 8px;">Built responsive UIs and maintained robust backend logic.</li>
+                            <li>Practiced Agile development with sprint planning and code reviews.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="margin-top: 50px;">
+                <h2 style="font-size: 2rem; margin-bottom: 30px; position: relative; display: inline-block; font-weight: 600; letter-spacing: 1px;">EDUCATION
+                    <span style="position: absolute; bottom: -10px; left: 0; width: 50px; height: 2px; background-color: #000;"></span>
+                </h2>
+                <div style="display: flex; flex-wrap: wrap; gap: 30px;">
+                    <div style="flex: 1; min-width: 300px;">
+                        <div style="margin-bottom: 20px;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                                <h3 style="margin: 0; font-size: 1.1rem; font-weight: 600;">BACHELOR OF ENGINEERING (CSE)</h3>
+                                <span style="color: #000; font-weight: 500;">2023 - 2026</span>
+                            </div>
+                            <p style="margin: 0; color: #666;">BMS Institute of Technology and Management</p>
+                            <p style="margin: 5px 0 0 0; color: #666;">CGPA: 6.43</p>
+                        </div>
+                    </div>
+                    
+                    <div style="flex: 1; min-width: 300px;">
+                        <div style="margin-bottom: 20px;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                                <h3 style="margin: 0; font-size: 1.1rem; font-weight: 600;">DIPLOMA IN COMPUTER SCIENCE</h3>
+                                <span style="color: #000; font-weight: 500;">2020 - 2023</span>
+                            </div>
+                            <p style="margin: 0; color: #666;">Government Polytechnic Gadag</p>
+                            <p style="margin: 5px 0 0 0; color: #666;">CGPA: 8.76</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" style="padding: 100px 5%; background-color: #f2f2f2; max-width: 100%;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <h2 style="font-size: 2rem; margin-bottom: 50px; position: relative; display: inline-block; font-weight: 600; letter-spacing: 1px;">PROJECTS
+                <span style="position: absolute; bottom: -10px; left: 0; width: 50px; height: 2px; background-color: #000;"></span>
+            </h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 30px;">
+                <!-- Project 1 -->
+                <div style="background-color: #fff; overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                    <div style="height: 250px; background-color: #000; display: flex; align-items: center; justify-content: center; color: #fff; position: relative;">
+                        <i class="fas fa-music" style="font-size: 50px; position: relative; z-index: 2;"></i>
+                        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; align-items: center; justify-content: center; opacity: 0.1;">
+                            <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Music Streaming" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div style="padding: 25px;">
+                        <h3 style="font-size: 1.2rem; margin: 0 0 10px 0; font-weight: 600; letter-spacing: 1px;">MUSIC STREAMING WEBSITE</h3>
+                        <p style="color: #666; margin: 0 0 20px 0; font-size: 0.95rem;">Developed a music streaming web app inspired by Spotify with playlist management and media controls.</p>
+                        <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+                            <span style="background-color: #f2f2f2; color: #333; padding: 5px 10px; font-size: 0.8rem;">HTML</span>
+                            <span style="background-color: #f2f2f2; color: #333; padding: 5px 10px; font-size: 0.8rem;">CSS</span>
+                            <span style="background-color: #f2f2f2; color: #333; padding: 5px 10px; font-size: 0.8rem;">JavaScript</span>
+                            <span style="background-color: #f2f2f2; color: #333; padding: 5px 10px; font-size: 0.8rem;">MongoDB</span>
+                        </div>
+                        <a href="https://github.com/dashboard" target="_blank" style="display: inline-block; color: #000; text-decoration: none; font-weight: 500; font-size: 0.9rem; transition: color 0.3s ease; border-bottom: 1px solid #000; padding-bottom: 2px;" onmouseover="this.style.color='#555'" onmouseout="this.style.color='#000'">VIEW PROJECT</a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div style="background-color: #fff; overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                    <div style="height: 250px; background-color: #000; display: flex; align-items: center; justify-content: center; color: #fff; position: relative;">
+                        <i class="fas fa-leaf" style="font-size: 50px; position: relative; z-index: 2;"></i>
+                        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; align-items: center; justify-content: center; opacity: 0.1;">
+                            <img src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Plant Disease Detection" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div style="padding: 25px;">
+                        <h3 style="font-size: 1.2rem; margin: 0 0 10px 0; font-weight: 600; letter-spacing: 1px;">POTATO PLANT DISEASE DETECTION</h3>
+                        <p style="color: #666; margin: 0 0 20px 0; font-size: 0.95rem;">Built a ML system to classify potato leaf diseases with high accuracy using CNN models.</p>
+                        <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+                            <span style="background-color: #f2f2f2; color: #333; padding: 5px 10px; font-size: 0.8rem;">Python</span>
+                            <span style="background-color: #f2f2f2; color: #333; padding: 5px 10px; font-size: 0.8rem;">TensorFlow</span>
+                            <span style="background-color: #f2f2f2; color: #333; padding: 5px 10px; font-size: 0.8rem;">Keras</span>
+                            <span style="background-color: #f2f2f2; color: #333; padding: 5px 10px; font-size: 0.8rem;">CNN</span>
+                        </div>
+                        <a href="https://github.com/dashboard" target="_blank" style="display: inline-block; color: #000; text-decoration: none; font-weight: 500; font-size: 0.9rem; transition: color 0.3s ease; border-bottom: 1px solid #000; padding-bottom: 2px;" onmouseover="this.style.color='#555'" onmouseout="this.style.color='#000'">VIEW PROJECT</a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div style="background-color: #fff; overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                    <div style="height: 250px; background-color: #000; display: flex; align-items: center; justify-content: center; color: #fff; position: relative;">
+                        <i class="fas fa-file-archive" style="font-size: 50px; position: relative; z-index: 2;"></i>
+                        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; align-items: center; justify-content: center; opacity: 0.1;">
+                            <img src="https://images.unsplash.com/photo-1586282391129-76a6df230234?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="ZIP Compressor" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div style="padding: 25px;">
+                        <h3 style="font-size: 1.2rem; margin: 0 0 10px 0; font-weight: 600; letter-spacing: 1px;">ZIP COMPRESSOR</h3>
+                        <p style="color: #666; margin: 0 0 20px 0; font-size: 0.95rem;">Created a web-based ZIP file compressor/decompressor with user-friendly interface.</p>
+                        <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+                            <span style="background-color: #f2f2f2; color: #333; padding: 5px 10px; font-size: 0.8rem;">HTML</span>
+                            <span style="background-color: #f2f2f2; color: #333; padding: 5px 10px; font-size: 0.8rem;">CSS</span>
+                            <span style="background-color: #f2f2f2; color: #333; padding: 5px 10px; font-size: 0.8rem;">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/dashboard" target="_blank" style="display: inline-block; color: #000; text-decoration: none; font-weight: 500; font-size: 0.9rem; transition: color 0.3s ease; border-bottom: 1px solid #000; padding-bottom: 2px;" onmouseover="this.style.color='#555'" onmouseout="this.style.color='#000'">VIEW PROJECT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" style="padding: 100px 5%; background-color: #fff; max-width: 100%;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <h2 style="font-size: 2rem; margin-bottom: 50px; position: relative; display: inline-block; font-weight: 600; letter-spacing: 1px;">SKILLS
+                <span style="position: absolute; bottom: -10px; left: 0; width: 50px; height: 2px; background-color: #000;"></span>
+            </h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 40px;">
+                <div>
+                    <h3 style="font-size: 1.2rem; margin-bottom: 20px; font-weight: 600; letter-spacing: 1px;">PROGRAMMING</h3>
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                        <span style="background-color: #f2f2f2; color: #333; padding: 8px 15px; font-size: 0.9rem;">C</span>
+                        <span style="background-color: #f2f2f2; color: #333; padding: 8px 15px; font-size: 0.9rem;">Java (OOP)</span>
+                        <span style="background-color: #f2f2f2; color: #333; padding: 8px 15px; font-size: 0.9rem;">Python</span>
+                        <span style="background-color: #f2f2f2; color: #333; padding: 8px 15px; font-size: 0.9rem;">DSA</span>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 style="font-size: 1.2rem; margin-bottom: 20px; font-weight: 600; letter-spacing: 1px;">WEB DEVELOPMENT</h3>
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                        <span style="background-color: #f2f2f2; color: #333; padding: 8px 15px; font-size: 0.9rem;">HTML</span>
+                        <span style="background-color: #f2f2f2; color: #333; padding: 8px 15px; font-size: 0.9rem;">CSS</span>
+                        <span style="background-color: #f2f2f2; color: #333; padding: 8px 15px; font-size: 0.9rem;">JavaScript</span>
+                        <span style="background-color: #f2f2f2; color: #333; padding: 8px 15px; font-size: 0.9rem;">React.js</span>
+                        <span style="background-color: #f2f2f2; color: #333; padding: 8px 15px; font-size: 0.9rem;">Node.js</span>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 style="font-size: 1.2rem; margin-bottom: 20px; font-weight: 600; letter-spacing: 1px;">DATABASES</h3>
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                        <span style="background-color: #f2f2f2; color: #333; padding: 8px 15px; font-size: 0.9rem;">MySQL</span>
+                        <span style="background-color: #f2f2f2; color: #333; padding: 8px 15px; font-size: 0.9rem;">MongoDB</span>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 style="font-size: 1.2rem; margin-bottom: 20px; font-weight: 600; letter-spacing: 1px;">TOOLS</h3>
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                        <span style="background-color: #f2f2f2; color: #333; padding: 8px 15px; font-size: 0.9rem;">Git</span>
+                        <span style="background-color: #f2f2f2; color: #333; padding: 8px 15px; font-size: 0.9rem;">GitHub</span>
+                        <span style="background-color: #f2f2f2; color: #333; padding: 8px 15px; font-size: 0.9rem;">VS Code</span>
+                        <span style="background-color: #f2f2f2; color: #333; padding: 8px 15px; font-size: 0.9rem;">Figma</span>
+                        <span style="background-color: #f2f2f2; color: #333; padding: 8px 15px; font-size: 0.9rem;">Jira</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="padding: 100px 5%; background-color: #000; color: #fff; max-width: 100%;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <h2 style="font-size: 2rem; margin-bottom: 50px; position: relative; display: inline-block; font-weight: 600; letter-spacing: 1px;">GET IN TOUCH
+                <span style="position: absolute; bottom: -10px; left: 0; width: 50px; height: 2px; background-color: #fff;"></span>
+            </h2>
+            
+            <div style="display: flex; flex-wrap: wrap; gap: 50px;">
+                <div style="flex: 1; min-width: 300px;">
+                    <p style="margin-bottom: 30px; color: #ccc; line-height: 1.8;">
+                        I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                    </p>
+                    
+                    <div style="margin-bottom: 20px;">
+                        <h3 style="font-size: 1.2rem; margin-bottom: 15px; font-weight: 600; letter-spacing: 1px;">CONTACT INFORMATION</h3>
+                        
+                        <div style="margin-bottom: 15px; display: flex; align-items: center;">
+                            <i class="fas fa-map-marker-alt" style="color: #fff; font-size: 1.2rem; margin-right: 15px; width: 20px; text-align: center;"></i>
+                            <span style="color: #ccc;">Bangalore, Yelahanka 560064</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px; display: flex; align-items: center;">
+                            <i class="fas fa-envelope" style="color: #fff; font-size: 1.2rem; margin-right: 15px; width: 20px; text-align: center;"></i>
+                            <a href="mailto:s.srushtishingri@gmail.com" style="color: #ccc; text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#ccc'">s.srushtishingri@gmail.com</a>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px; display: flex; align-items: center;">
+                            <i class="fas fa-phone" style="color: #fff; font-size: 1.2rem; margin-right: 15px; width: 20px; text-align: center;"></i>
+                            <a href="tel:8310050417" style="color: #ccc; text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#ccc'">8310050417</a>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 style="font-size: 1.2rem; margin-bottom: 15px; font-weight: 600; letter-spacing: 1px;">SOCIAL LINKS</h3>
+                        <div style="display: flex; gap: 15px;">
+                            <a href="https://github.com/dashboard" target="_blank" style="color: #ccc; font-size: 1.5rem; transition: color 0.3s ease;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#ccc'">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/srushti-shingri-aab689274" target="_blank" style="color: #ccc; font-size: 1.5rem; transition: color 0.3s ease;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#ccc'">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="flex: 1; min-width: 300px;">
+                    <form id="contactForm" onsubmit="return submitForm(event)">
+                        <div style="margin-bottom: 20px;">
+                            <label for="name" style="display: block; margin-bottom: 8px; font-weight: 500; color: #ccc;">NAME</label>
+                            <input type="text" id="name" name="name" required style="width: 100%; padding: 12px; background-color: rgba(255,255,255,0.1); border: none; border-radius: 0; color: #fff; font-family: 'Montserrat', sans-serif; font-size: 1rem; outline: none; transition: background-color 0.3s ease;" onfocus="this.style.backgroundColor='rgba(255,255,255,0.15)'" onblur="this.style.backgroundColor='rgba(255,255,255,0.1)'">
+                        </div>
+                        
+                        <div style="margin-bottom: 20px;">
+                            <label for="email" style="display: block; margin-bottom: 8px; font-weight: 500; color: #ccc;">EMAIL</label>
+                            <input type="email" id="email" name="email" required style="width: 100%; padding: 12px; background-color: rgba(255,255,255,0.1); border: none; border-radius: 0; color: #fff; font-family: 'Montserrat', sans-serif; font-size: 1rem; outline: none; transition: background-color 0.3s ease;" onfocus="this.style.backgroundColor='rgba(255,255,255,0.15)'" onblur="this.style.backgroundColor='rgba(255,255,255,0.1)'">
+                        </div>
+                        
+                        <div style="margin-bottom: 20px;">
+                            <label for="message" style="display: block; margin-bottom: 8px; font-weight: 500; color: #ccc;">MESSAGE</label>
+                            <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 12px; background-color: rgba(255,255,255,0.1); border: none; border-radius: 0; color: #fff; font-family: 'Montserrat', sans-serif; font-size: 1rem; outline: none; transition: background-color 0.3s ease; resize: vertical;" onfocus="this.style.backgroundColor='rgba(255,255,255,0.15)'" onblur="this.style.backgroundColor='rgba(255,255,255,0.1)'"></textarea>
+                        </div>
+                        
+                        <button type="submit" style="background-color: #fff; color: #000; border: none; padding: 12px 25px; font-family: 'Montserrat', sans-serif; font-size: 1rem; font-weight: 500; cursor: pointer; transition: background-color 0.3s ease; letter-spacing: 1px;" onmouseover="this.style.backgroundColor='#e6e6e6'" onmouseout="this.style.backgroundColor='#fff'">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #000; padding: 30px 5%; text-align: center; color: #666; border-top: 1px solid #333;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <p style="margin: 0; font-size: 0.9rem;">&copy; 2024 Srushti Shingri. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('menuToggle');
+            const navLinks = document.getElementById('navLinks');
+            
+            // Check if screen is mobile and adjust menu display
+            function checkScreenSize() {
+                if (window.innerWidth < 768) {
+                    navLinks.style.display = 'none';
+                    menuToggle.style.display = 'block';
+                } else {
+                    navLinks.style.display = 'flex';
+                    menuToggle.style.display = 'none';
+                }
+            }
+            
+            // Initial check
+            checkScreenSize();
+            
+            // Listen for window resize
+            window.addEventListener('resize', checkScreenSize);
+            
+            // Toggle menu on click
+            menuToggle.addEventListener('click', function() {
+                if (navLinks.style.display === 'none' || navLinks.style.display === '') {
+                    navLinks.style.display = 'flex';
+                    navLinks.style.flexDirection = 'column';
+                    navLinks.style.position = 'absolute';
+                    navLinks.style.top = '60px';
+                    navLinks.style.left = '0';
+                    navLinks.style.right = '0';
+                    navLinks.style.backgroundColor = '#ffffff';
+                    navLinks.style.padding = '20px';
+                    navLinks.style.boxShadow = '0 5px 10px rgba(0,0,0,0.1)';
+                    navLinks.style.zIndex = '1000';
+                } else {
+                    navLinks.style.display = 'none';
+                }
+            });
+            
+            // Close menu when clicking a link (mobile)
+            const links = navLinks.querySelectorAll('a');
+            links.forEach(link => {
+                link.addEventListener('click', function() {
+                    if (window.innerWidth < 768) {
+                        navLinks.style.display = 'none';
+                    }
+                });
+            });
+            
+            // Shrink navbar on scroll
+            window.addEventListener('scroll', function() {
+                const navbar = document.getElementById('navbar');
+                if (window.scrollY > 50) {
+                    navbar.style.padding = '10px 0';
+                    navbar.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+                } else {
+                    navbar.style.padding = '15px 0';
+                    navbar.style.boxShadow = '0 2px 10px rgba(0,0,0,0.05)';
+                }
+            });
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    const navbarHeight = document.getElementById('navbar').offsetHeight;
+                    const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Form submission
+        function submitForm(event) {
+            event.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            // In a real application, you would send this data to a server
+            // For now, we'll just show an alert
+            alert(`Thank you for your message, ${name}! I'll get back to you soon.`);
+            
+            // Reset the form
+            document.getElementById('contactForm').reset();
+            
+            return false;
+        }
+    </script>
+</body>
+</html>
